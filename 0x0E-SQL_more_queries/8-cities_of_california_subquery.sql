@@ -1,4 +1,0 @@
--- LIST ALL THE CITIES OF CALIFORNIA FOUND IN THE DATABASE
-SELECT id, name FROM cities
-WHERE state_id = (SELECT id FROM states WHERE name = "California")
-ORDER BY id;
